@@ -1,0 +1,20 @@
+.alignment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+
+}
+
+.phone-screen{
+    width: 20em;
+    height: 40em;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: black;
+    border-width:.1em;
+    background-color: rgb(211, 210, 210);
+    position: relative;
+    z-index: 0;
+}

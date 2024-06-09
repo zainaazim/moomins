@@ -1,0 +1,29 @@
+.alignment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%; /* Ensure it takes full width of the parent */
+    height: 100%; /* Ensure it takes full height of the parent */
+    top: 0; /* Position from top */
+    left: 0; /* Position from left */
+}
+
+.icon-pair{
+    width: 2em;
+    height: 4em;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: black;
+    border-width:.1em;
+    background-color: rgb(183, 125, 125);
+    opacity: .7;
+    transition: 0.3s;
+    position: absolute;
+    z-index: 1;
+}
+
+.icon-pair:hover{
+    opacity: 1;
+    background-color: rgb(147, 42, 42);
+}

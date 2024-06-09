@@ -3,12 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ImageButtonComponent } from './image-button/image-button.component';
+import { PhoneScreenComponent } from './phone-screen/phone-screen.component';
+import { PlayerIconsComponent } from './player-icons/player-icons.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ImageButtonComponent
+    PhoneScreenComponent,
+    PlayerIconsComponent
   ],
   imports: [
     BrowserModule,
