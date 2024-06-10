@@ -1,6 +1,7 @@
 .alignment{
     display: flex;
     justify-content: center;
+    gap: 1em;
     align-items: center;
     position: absolute;
     width: 100%; /* Ensure it takes full width of the parent */
@@ -10,16 +11,22 @@
 }
 
 .icon-pair{
-    width: 2em;
-    height: 4em;
+    margin-top: -20em;
+    height: 10em;
+    width: 10em;
     border-radius: 1em;
     border-style: solid;
     border-color: black;
     border-width:.1em;
-    background-color: rgb(183, 125, 125);
+    background-color: rgb(133, 19, 19);
     opacity: .7;
     transition: 0.3s;
     position: absolute;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 1;
 }
 
@@ -27,3 +34,45 @@
     opacity: 1;
     background-color: rgb(147, 42, 42);
 }
+
+  /* Define styles for button when it's focused */
+  .icon-pair:focus {
+    background-color: rgb(69, 160, 73);
+  }
+
+  .icon-pair2{
+    margin-top: 3em;
+    height: 10em;
+    width: 10em;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: black;
+    border-width:.1em;
+    background-color: rgb(133, 19, 19);
+    opacity: .7;
+    transition: 0.3s;
+    position: absolute;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.icon-pair2:hover{
+    opacity: 1;
+    background-color: rgb(147, 42, 42);
+}
+
+  /* Define styles for button when it's focused */
+  .icon-pair2:focus {
+    background-color: rgb(69, 160, 73);
+  }
+
+  .button-image {
+    position: absolute;
+    pointer-events: none; /* Ensure the image doesn't interfere with button click */
+    height: 7em;
+    width: 7em;
+  }
