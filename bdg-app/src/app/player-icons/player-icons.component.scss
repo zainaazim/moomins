@@ -19,7 +19,7 @@
     border-color: #8e2b34;
     border-width:.1em;
     background-color: #8e2b34;
-    opacity: .7;
+    opacity: 1;
     transition: 0.3s;
     position: absolute;
     position: relative;
@@ -37,7 +37,7 @@
 }
 
 .icon-pair:hover{
-    opacity: 1;
+    opacity: .7;
     background-color: #A23E48;
 }
 
@@ -55,7 +55,7 @@
     border-color: #8e2b34;
     border-width:.1em;
     background-color: #8e2b34;
-    opacity: .7;
+    opacity: 1;
     transition: 0.3s;
     position: absolute;
     position: relative;
@@ -67,7 +67,7 @@
 }
 
 .icon-pair2:hover{
-    opacity: 1;
+    opacity: .7;
     background-color: #A23E48;
 }
 
@@ -85,7 +85,7 @@
     border-color: #8e2b34;
     border-width:.1em;
     background-color: #8e2b34;
-    opacity: .7;
+    opacity: 1;
     transition: 0.3s;
     position: absolute;
     position: relative;
@@ -97,7 +97,7 @@
 }
 
 .icon-pair3:hover{
-    opacity: 1;
+    opacity: .7;
     background-color: #A23E48;
 }
 
@@ -115,7 +115,7 @@
     border-color: #8e2b34;
     border-width:.1em;
     background-color: #8e2b34;
-    opacity: .7;
+    opacity: 1;
     transition: 0.3s;
     position: absolute;
     position: relative;
@@ -126,8 +126,11 @@
     z-index: 1;
 }
 
+img{
+  border-radius: .5em;
+}
 .icon-pair4:hover{
-    opacity: 1;
+    opacity: .7;
     background-color: #A23E48;
 }
 
