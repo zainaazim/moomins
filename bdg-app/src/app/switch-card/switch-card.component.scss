@@ -1,0 +1,35 @@
+.alignment{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+    position: absolute;
+    width: 100%; /* Ensure it takes full width of the parent */
+    height: 100%; /* Ensure it takes full height of the parent */
+    top: 0; /* Position from top */
+    left: 0; /* Position from left */
+}
+
+.card{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -30em;
+    margin-left: 0em;
+    width: 10em;
+    height: 15em;
+    cursor: grab;
+    border-radius: .7em;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    box-shadow: .1em .1em .7em #353535;
+    z-index: 2;
+}
+
+.card img{
+
+    width: 10em;
+    height: 7em;
+
+}
