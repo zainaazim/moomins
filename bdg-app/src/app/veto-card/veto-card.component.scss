@@ -14,8 +14,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: -29em;
-    margin-left: 0em;
+    margin-bottom: -30em;
+    margin-left: -1em;
     width: 10em;
     height: 15em;
     cursor: grab;
@@ -23,13 +23,12 @@
     background-color: rgb(255, 255, 255);
     border-color: rgb(255, 255, 255);
     box-shadow: .1em .1em .7em #353535;
-    z-index: 3;
+    z-index: 4;
 }
 
 .card img{
 
-    margin-left: 1em;
-    width: 8.5em;
-    height: 10em;
+    width: 10.5em;
+    height: 8.5em;
 
 }

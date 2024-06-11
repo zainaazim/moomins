@@ -8,6 +8,7 @@ import { PlayerIconsComponent } from './player-icons/player-icons.component';
 import { SwitchCardComponent } from './switch-card/switch-card.component';
 import {DragDropModule} from '@angular/cdk/drag-drop';
 import { PlusCardComponent } from './plus-card/plus-card.component';
+import { VetoCardComponent } from './veto-card/veto-card.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PlusCardComponent } from './plus-card/plus-card.component';
     PhoneScreenComponent,
     PlayerIconsComponent,
     SwitchCardComponent,
-    PlusCardComponent
+    PlusCardComponent,
+    VetoCardComponent
   ],
   imports: [
     BrowserModule,

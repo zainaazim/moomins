@@ -1,7 +1,6 @@
 .alignment{
     display: flex;
     justify-content: center;
-    gap: 1em;
     align-items: center;
     position: absolute;
     width: 100%; /* Ensure it takes full width of the parent */
@@ -15,8 +14,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: -30em;
-    margin-left: 0em;
+    margin-bottom: -28em;
+    margin-right: -1em;
     width: 10em;
     height: 15em;
     cursor: grab;
