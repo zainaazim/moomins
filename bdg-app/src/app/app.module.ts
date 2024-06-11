@@ -9,6 +9,7 @@ import { SwitchCardComponent } from './switch-card/switch-card.component';
 import {DragDropModule} from '@angular/cdk/drag-drop';
 import { PlusCardComponent } from './plus-card/plus-card.component';
 import { VetoCardComponent } from './veto-card/veto-card.component';
+import { DialogComponent } from './dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { VetoCardComponent } from './veto-card/veto-card.component';
     PlayerIconsComponent,
     SwitchCardComponent,
     PlusCardComponent,
-    VetoCardComponent
+    VetoCardComponent,
+    DialogComponent
   ],
   imports: [
     BrowserModule,
