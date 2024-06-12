@@ -4,10 +4,10 @@
     gap: 1em;
     align-items: center;
     position: absolute;
-    width: 100%; /* Ensure it takes full width of the parent */
-    height: 100%; /* Ensure it takes full height of the parent */
-    top: 0; /* Position from top */
-    left: 0; /* Position from left */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 #main{
@@ -35,19 +35,29 @@
 }
 
 #selected{
-  border-color: #6C8EAD;
-  background-color: #6C8EAD;
+  border-color: #A23E48;
+  background-color: #A23E48;
+  border-color: #ffc3c3;
+    border-width:.2em;
 
+}
+
+#selected:hover{
+  opacity: 1;
 }
 
 .icon-pair:hover{
     opacity: .7;
+    border-color: #A23E48;
     background-color: #A23E48;
+    border-color: #ffc3c3;
+    border-width:.2em;
 }
 
-  /* Define styles for button when it's focused */
   .icon-pair:focus {
-    background-color: #6C8EAD;
+    background-color: #A23E48;
+    border-color: #ffc3c3;
+    border-width:.2em;
   }
 
   .icon-pair2{
@@ -71,12 +81,16 @@
 
 .icon-pair2:hover{
     opacity: .7;
+    border-color: #A23E48;
     background-color: #A23E48;
+    border-color: #ffc3c3;
+    border-width:.2em;
 }
 
-  /* Define styles for button when it's focused */
   .icon-pair2:focus {
-    background-color: #6C8EAD;
+    background-color: #A23E48;
+    border-color: #ffc3c3;
+    border-width:.2em;
   }
 
   .icon-pair3{
@@ -100,12 +114,16 @@
 
 .icon-pair3:hover{
     opacity: .7;
+    border-color: #A23E48;
     background-color: #A23E48;
+    border-color: #ffc3c3;
+    border-width:.2em;
 }
 
-  /* Define styles for button when it's focused */
   .icon-pair3:focus {
-    background-color: #6C8EAD;
+    background-color: #A23E48;
+    border-color: #ffc3c3;
+    border-width:.2em;
   }
 
   .icon-pair4{
@@ -132,17 +150,21 @@ img{
 }
 .icon-pair4:hover{
     opacity: .7;
+    border-color: #A23E48;
     background-color: #A23E48;
+    border-color: #ffc3c3;
+    border-width:.2em;
 }
 
-  /* Define styles for button when it's focused */
   .icon-pair4:focus {
-    background-color: #6C8EAD;
+    background-color: #A23E48;
+    border-color: #ffc3c3;
+    border-width:.2em;
   }
 
   .button-image {
     position: absolute;
-    pointer-events: none; /* Ensure the image doesn't interfere with button click */
+    pointer-events: none;
     height: 6em;
     width: 6em;
   }

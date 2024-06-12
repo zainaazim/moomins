@@ -1,20 +1,15 @@
 import { Component } from '@angular/core';
+import { DialogComponent } from '../dialog/dialog.component';
 import { MatDialog, MatDialogRef } from '@angular/material/dialog';
-import { DialogComponent } from './dialog/dialog.component';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  selector: 'app-info-button',
+  templateUrl: './info-button.component.html',
+  styleUrl: './info-button.component.scss'
 })
-export class AppComponent {
-  title = 'bdg-app';
+export class InfoButtonComponent {
 
   constructor(public dialog: MatDialog) {}
-
-  ngOnInit(): void {
-    this.openDialog();
-  }
 
   openDialog(): void {
     const dialogRef = this.dialog.open(DialogComponent, {
@@ -26,4 +21,5 @@ export class AppComponent {
     });
     
   }
+
 }

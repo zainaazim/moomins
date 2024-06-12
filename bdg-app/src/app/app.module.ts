@@ -10,6 +10,9 @@ import {DragDropModule} from '@angular/cdk/drag-drop';
 import { PlusCardComponent } from './plus-card/plus-card.component';
 import { VetoCardComponent } from './veto-card/veto-card.component';
 import { DialogComponent } from './dialog/dialog.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatIconModule } from '@angular/material/icon';
+import { InfoButtonComponent } from './info-button/info-button.component';
 
 @NgModule({
   declarations: [
@@ -19,13 +22,17 @@ import { DialogComponent } from './dialog/dialog.component';
     SwitchCardComponent,
     PlusCardComponent,
     VetoCardComponent,
-    DialogComponent
+    DialogComponent,
+    InfoButtonComponent,
+  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     DragDropModule,
-    BrowserAnimationsModule // Include BrowserAnimationsModule here
+    BrowserAnimationsModule,
+    MatDialogModule,
+    MatIconModule
   ],
   bootstrap: [AppComponent]
 })
